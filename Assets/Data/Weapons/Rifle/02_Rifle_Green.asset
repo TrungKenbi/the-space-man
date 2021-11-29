@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea840b3c93b4d71a52bfdfe011ebfbd, type: 3}
+  m_Name: 02_Rifle_Green
+  m_EditorClassIdentifier: 
+  icon: {fileID: -425265156163451344, guid: e94a4e76a3600bc4cbb0d19d0dc142da, type: 3}
+  weaponPrefab: {fileID: 1750321677675474929, guid: 69280a3c9852e0143bc8fc36d8674d32,
+    type: 3}
+  bulletPrefab: {fileID: 3237100028772063385, guid: d3d0761d8f2c63941ac52de5b4438601,
+    type: 3}
+  bulletSpeed: 30
+  numBulletsToFire: 1
+  fireRate: 0.1
+  reloadTime: 1
+  cartridgeCapacity: 30
+  maxBullets: 120
+  fireAudio: {fileID: 8300000, guid: 48e32d1216191b24abe3e32271d72072, type: 3}
+  fireReloadAudio: {fileID: 8300000, guid: 08dfd189e0c3ab54d8686402f0b550f2, type: 3}

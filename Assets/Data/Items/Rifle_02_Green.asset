@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 184561f88f1348a9852c92c1dd8170d5, type: 3}
+  m_Name: Rifle_02_Green
+  m_EditorClassIdentifier: 
+  icon: {fileID: -425265156163451344, guid: e94a4e76a3600bc4cbb0d19d0dc142da, type: 3}
+  type: 1
+  dropRate: 1
+  data: {fileID: 11400000, guid: 51722c8ae4fe9654696cb6f5760807ca, type: 2}

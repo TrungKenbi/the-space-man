@@ -1,0 +1,50 @@
+Một số tài liệu cần tham khảo:
+	https://refactoring.guru/design-patterns/catalog
+	https://toqoz.fyi/object-pooling.html
+	https://learn.unity.com/tutorial/introduction-to-object-pooling
+	https://phuongne.com/
+
+Cốt truyên:
+	- Một phi hành gia trong lúc đang thám hiểm hành tinh mới không may con tàu của anh ta gặp sự cố và rơi xuống hành tinh mới, may mắn thay anh ta vẫn còn sống sót, anh đang đi khám phá hành tinh và phát hiện các viên tinh thể có thể sửa chửa được con tàu của mình, nên anh ta cần tìm các viên tinh thể càng nhiều càng tốt, nhưng ở đây luôn có những quái vật muốn bảo vệ những viên tinh thể này, anh ta phải hết sức bình tĩnh để chiến đấu vì mạng sống của mình.
+	
+Chuẩn bị:
+	+ Đã có assets chuẩn bị sẵn
+	+ Có một chút kiến thức về Unity cơ bản
+	+ Lập trình hướng đối tượng ok :v
+	+ Desgin pattern biết được các mẫu hay dùng để tối ưu và dễ mở rộng
+
+Danh sách chức năng:
+	+ Vẽ map 2D bằng tilemap và đặt các collider để giới hạn map và animation với map
+	+ Di chuyển nhân vật và animation, collider nhân vật
+	+ Camera theo dõi nhân vật
+	+ Bắn bằng chuột trái và đánh gần bắn chuột phải
+	+ Nhân vật có 2 chế độ đánh và bắn
+		+ Ở chế độ đánh: Chỉ có thể đánh ở phạm vi gần nhưng lượng sát thương lớn
+		+ Ở chế độ bắn: Có nhiều loại súng và mức sát thương khác nhau, có giới hạn số lượng đạn
+	+ Sử dụng Object Pooling để tối ưu các object đạn
+	+ Sử dụng Scriptable Object để lưu các kiểu bắn và các loại đạn
+	
+	+ Quái vật: Sẽ có 4 loại quái vật bình thường và 2 loại boss
+		+ Thiết lập số lượng quái trong bản đồ và đặt cái collider và NavMesh để tìm đường bằng thuật toán A*
+		+ Sử dụng Behavior Tree để làm AI cho quái tự động tìm mục tiêu, tấn công và đuổi theo, ...
+		+ Cài đặt một số kiểu bắn và một số loại tự hủy bản thân để gây sát thương mục tiêu
+	
+	+ Sửa tàu, nhân vật sẽ phải làm các nhiệm vụ tìm kiếm tinh thể và linh kiện để sửa được tàu
+		+ VD:
+			- 100 tinh thể + sắt để sửa động cơ tàu
+			- 200 tinh thể + nhôm để sửa thân tàu
+		
+	
+	+ Mua item: Có thể dùng ngọc để mua súng mới và trang bị mới để tăng chỉ số
+		- Súng:
+			- Súng liên thanh
+			- Súng lazer
+			- Súng phóng lựu
+		- Trang bị
+			- Áo giáp
+			- Giày siêu tốc
+			...
+	
+	+ Phát triển game có thể chơi trực tuyến nếu còn đủ thời gian.
+	
+	+ Keep Updated :)

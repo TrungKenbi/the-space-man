@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c403ab3190a243ce9aa680d553fb5f38, type: 3}
+  m_Name: 01_Wrench_Default
+  m_EditorClassIdentifier: 
+  icon: {fileID: -5259075790144843929, guid: e94a4e76a3600bc4cbb0d19d0dc142da, type: 3}
+  weaponPrefab: {fileID: 6482402793054869416, guid: fe46fd73a5a3a5842be7e91671c36855,
+    type: 3}
+  hitEffectPrefab: {fileID: -7058538830159321760, guid: e61bcd6e3a4528346a7c4c8fef0e44f7,
+    type: 3}
+  fireRate: 0.5
+  fireAudio: {fileID: 8300000, guid: b1c0aa3e115c5194d8052c2bffe9ac15, type: 3}

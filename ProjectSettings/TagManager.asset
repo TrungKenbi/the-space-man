@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FirePoint
+  - EnemySpawn
+  - BossSpawn
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - Bullet
+  - Decorative
+  - BossBullet
+  - Wall
+  - ItemWeapon
+  - Box
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3795272889
+    locked: 0
+  - name: BackgroundDeco
+    uniqueID: 1582522229
+    locked: 0
+  - name: Middle
+    uniqueID: 1742634141
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 3387932673
+    locked: 0
+  - name: SecondWeapon
+    uniqueID: 479011653
+    locked: 0
+  - name: PlayerShadow
+    uniqueID: 2127687085
+    locked: 0
+  - name: Player
+    uniqueID: 1589663975
+    locked: 0
+  - name: MainWeapon
+    uniqueID: 3657043167
+    locked: 0
+  - name: Hands
+    uniqueID: 2313394495
+    locked: 0
+  - name: TopWall
+    uniqueID: 338445599
+    locked: 0
+  - name: Item
+    uniqueID: 2325986625
+    locked: 0
+  - name: Cursor
+    uniqueID: 1231975213
+    locked: 0
