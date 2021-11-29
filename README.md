@@ -1,7 +1,7 @@
 # Space Robinson Clone
 
 ## Let's play
-Web: https://trungkenbi.itch.io/thespaceman\
+Web: https://trungkenbi.itch.io/thespaceman \
 Android: Coming Soon\
 iOS: Coming Soon
 
