@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.fluid.behavior-tree": {
-      "version": "2.2.0",
+      "version": "2.2.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -12,7 +12,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "43ed94eb80597fd9663fbbea9fcc1ddb45dded70"
+      "hash": "040ac9035ed336793c1cac844a01017c16873454"
     },
     "com.unity.2d.animation": {
       "version": "7.0.6",
@@ -100,7 +100,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "1.17.1",
+      "version": "1.17.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -166,7 +166,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.31",
+      "version": "1.1.33",
       "depth": 0,
       "source": "registry",
       "dependencies": {
