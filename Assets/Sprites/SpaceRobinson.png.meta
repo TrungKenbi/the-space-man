@@ -236,6 +236,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -267,9 +269,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -423,7 +428,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9854f7b8879069eb0800000000000000
-      internalID: -4713569546655545975
+      internalID: -87544296440517656
       vertices: []
       indices: 
       edges: []
@@ -444,7 +449,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c9180726eba8face0800000000000000
-      internalID: -1391741209534234212
+      internalID: 3964875529404412268
       vertices: []
       indices: 
       edges: []
@@ -465,7 +470,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3a46034db6e52e990800000000000000
-      internalID: -7358215023955516253
+      internalID: 4954820715088581951
       vertices: []
       indices: 
       edges: []
@@ -612,7 +617,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3b80c861cdb9d0020800000000000000
-      internalID: 2309673553484318899
+      internalID: -5076548266911056526
       vertices: []
       indices: 
       edges: []
@@ -633,7 +638,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3b448bf9755772e20800000000000000
-      internalID: 3325755869038658739
+      internalID: 2309673553484318899
       vertices: []
       indices: 
       edges: []
@@ -780,7 +785,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fd1154097028a6a40800000000000000
-      internalID: 5362241275334824415
+      internalID: -7455611079080148582
       vertices: []
       indices: 
       edges: []
@@ -843,7 +848,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b47a47c8d06fc9840800000000000000
-      internalID: 5232327405149136715
+      internalID: -7954162437426048451
       vertices: []
       indices: 
       edges: []
@@ -948,7 +953,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2e70a8a8048695c70800000000000000
-      internalID: 8960307560041809890
+      internalID: 6687555247212916194
       vertices: []
       indices: 
       edges: []
@@ -969,7 +974,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cb3e2e81cdee43b30800000000000000
-      internalID: 4266297376104440764
+      internalID: -8494487771332761638
       vertices: []
       indices: 
       edges: []
@@ -990,7 +995,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 68112f4b180786aa0800000000000000
-      internalID: -6167555987295039098
+      internalID: -613860311984418033
       vertices: []
       indices: 
       edges: []
@@ -1011,7 +1016,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 311456679a70e9b20800000000000000
-      internalID: 3142958014368399635
+      internalID: 730727471218047355
       vertices: []
       indices: 
       edges: []
@@ -1032,7 +1037,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8338ecad12c6848f0800000000000000
-      internalID: -556075661319568584
+      internalID: -7301057359044997560
       vertices: []
       indices: 
       edges: []
@@ -1116,7 +1121,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 01016115153a4e580800000000000000
-      internalID: -8798728202327027696
+      internalID: 3739441953805767989
       vertices: []
       indices: 
       edges: []
@@ -2139,6 +2144,93 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      bullet_02: 6674328665306461423
+      gate_01: 2360649148250824694
+      item_boots: -3421466480501509861
+      machine_02_on_01: 1772457799671146074
+      weapon_shotgun_02: 5409622415051634962
+      ground_ship_02: 5889335440569885730
+      headquarter_02: -8936082986662124561
+      weapon_wrench: -5259075790144843929
+      dark_layer: -4942276812815303949
+      machine_03_on_02: 8162027209561879120
+      bullet_01: -3233747131873146445
+      item_healthcare_box: 483748932195344948
+      monster_boom_purple_idle_01: 1836638702307815556
+      character_01_idle_back_02: 3964875529404412268
+      SpaceRobinson_11: 8251179096325839960
+      melee_hit_anim_03: -1136706094905284009
+      SpaceRobinson_3: 5802908156433535586
+      monster_cactus_red_idle_01: -5437613376422115389
+      gound_deco_001: -7147889980761011893
+      melee_hit_anim_01: -7308038450371131908
+      auto_door_06: 730727471218047355
+      gate_02: -4164563159782914457
+      ground_002: 4139685841656904303
+      gound_deco_003: 3664200726055883018
+      ground_ship_03: -4683384535408061496
+      auto_door_01: 6687555247212916194
+      ui_loading_front: -5701125490210831251
+      ground_ship_01: -7455611079080148582
+      chest_skull: -1314898506392856406
+      map_01_ground_01: 2838596861458926322
+      machine_03_on_01: 7249522798565383280
+      wall_ship_01: -7954162437426048451
+      character_01_idle_back_03: 4954820715088581951
+      item_bullet: -8099006095186980262
+      monster_boom_red_idle_01: 8660482942139204596
+      SpaceRobinson_1: -6591086600224819760
+      wall_ship_top_01: 3674906435769481467
+      auto_door_03: -7301057359044997560
+      weapon_wrench_hands: 6034827917440900041
+      chest_legendary: -814389357960593596
+      item_apple: 649127957449136884
+      weapon_rifle_02: -425265156163451344
+      boss_green_01: -8795697475034789770
+      ground_ship_big_04: 8649712442559171367
+      gound_deco_002: -2398119165491066591
+      hands_piston: 508841987250310357
+      melee_hit_anim_02: -7329022796952657852
+      logo_space_robinson: -5446085042090935074
+      bullet_enemy: 2348882832442196236
+      headquarter_01: 987349919998732716
+      machine_01_on_01: 5629027498901448853
+      SpaceRobinson_8: 7496861870142906586
+      character_shadow: 3865064841676244288
+      hands_shotgun: -823931359998547055
+      monster_ghost_yellow_idle_01: -4488188848166127475
+      auto_door_04: -613860311984418033
+      SpaceRobinson_2: 1919146259177068114
+      bullet_green_01: 1709331188838283386
+      ground_ship_big_01: 1779715023697566643
+      SpaceRobinson_10: 5200967109001649817
+      wall_ship_02: -7397237028683976640
+      character_01_idle_front_01: 2036080609743706454
+      Ground_White: 7896158375670645364
+      weapon_piston_01: 7061785020687489169
+      machine_02_on_02: -9185330759727995151
+      character_01_idle_front_03: -5076548266911056526
+      ui_health_cell: 3601942930107447518
+      SpaceRobinson_7: 1614935927679603920
+      ground_ship_big_03: 3524395610043689430
+      chest_epic: 5522927198310466334
+      SpaceRobinson_0: -5071159699176258948
+      Ground_Dark_Blue: -3609389035694122709
+      ui_loading_back: -1400662513201996478
+      machine_01_on_02: -8103731954396513689
+      ui_health_icon: 8865346914746570041
+      character_01_idle_front_02: 2309673553484318899
+      map_02_ground_12: -8229578282370573962
+      monster_cactus_green_idle_01: 1216807567700295890
+      chest_common: -719600037443117453
+      item_gem: 6300787067078115538
+      ground_ship_big_02: 1954135818134383430
+      weapon_shotgun_01: 3739441953805767989
+      auto_door_05: 4387474500206543060
+      wall_shadow: -9149539580427669410
+      auto_door_02: -8494487771332761638
+      character_01_idle_back_01: -87544296440517656
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
