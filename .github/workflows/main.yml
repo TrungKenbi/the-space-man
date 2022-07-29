@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    name: Build my project ✨
+    name: Build The Space Man ✨
     runs-on: ubuntu-latest
     steps:
       # Checkout (without LFS)
