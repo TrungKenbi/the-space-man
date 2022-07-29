@@ -1,4 +1,4 @@
-name: Robot Builder 😎
+name: The Space Man Builder
 
 on:
   workflow_dispatch: {}
@@ -6,7 +6,7 @@ on:
 jobs:
   buildForAllSupportedPlatforms:
     name: Build for ${{ matrix.targetPlatform }}
-    runs-on: windows-2019
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
@@ -14,7 +14,7 @@ jobs:
           - 2021.3.7f1
         targetPlatform:
           - StandaloneWindows64 # Build a Windows 64-bit standalone.
-          # - iOS # Build an iOS player.
+          - iOS # Build an iOS player.
           - Android # Build an Android .apk standalone app.
     steps:
       - uses: actions/checkout@v2
