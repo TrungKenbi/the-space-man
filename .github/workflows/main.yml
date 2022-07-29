@@ -6,16 +6,16 @@ on:
 jobs:
   buildForAllSupportedPlatforms:
     name: Build for ${{ matrix.targetPlatform }}
-    runs-on: ubuntu-latest
+    runs-on: windows-2019
     strategy:
       fail-fast: false
+      unityVersion:
+          - 2021.3.7f1
       matrix:
         targetPlatform:
-          - StandaloneWindows # Build a Windows standalone.
           - StandaloneWindows64 # Build a Windows 64-bit standalone.
           # - iOS # Build an iOS player.
           - Android # Build an Android .apk standalone app.
-          - WebGL # WebGL.
     steps:
       - uses: actions/checkout@v2
         with:
@@ -30,6 +30,7 @@ jobs:
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
+          unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
       - uses: actions/upload-artifact@v2
         with:
