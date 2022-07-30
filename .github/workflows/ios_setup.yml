@@ -22,5 +22,5 @@ jobs:
           APPSTORE_P8: ${{ secrets.APPSTORE_P8 }}
 
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.event.repository }}
+          GITHUB_REPOSITORY: ${{ env.GITHUB_REPOSITORY }}
           MATCH_REPOSITORY: ${{ secrets.MATCH_REPOSITORY }}
