@@ -15,9 +15,9 @@ jobs:
       - name: Build iOS
         shell: bash
         run: |
-          bundle exec fastlane ios init_ci
           echo "Match Deploy Key:  "
           echo ${{secrets.MATCH_DEPLOY_KEY}} | sed 's/./& /g'
+          bundle exec fastlane ios init_ci
         env:
           APPSTORE_ISSUER_ID: ${{ secrets.APPSTORE_ISSUER_ID }}
           APPSTORE_KEY_ID: ${{ secrets.APPSTORE_KEY_ID }}
