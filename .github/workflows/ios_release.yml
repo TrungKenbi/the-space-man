@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: Caching Library
-      - uses: actions/cache@v2
+        uses: actions/cache@v2
         with:
           path: Library
           key: Library-iOS
@@ -67,8 +67,6 @@ jobs:
           IOS_BUNDLE_ID: ${{ secrets.IOS_BUNDLE_ID }}
           PROJECT_NAME: The Space Man
         run: |
-          eval "$(ssh-agent -s)"
-          ssh-add - <<< `${MATCH_DEPLOY_KEY}`
           find $IOS_BUILD_PATH -type f -name "**.sh" -exec chmod +x {} \;
           bundle install
           bundle exec fastlane ios release
