@@ -8,6 +8,11 @@ jobs:
     name: Build for iOS
     runs-on: ubuntu-latest
     steps:
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.MATCH_DEPLOY_KEY }}
+
       - uses: actions/checkout@v2
 
       - uses: actions/cache@v2
@@ -33,6 +38,11 @@ jobs:
     runs-on: macos-latest
     needs: buildForiOSPlatform
     steps:
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.MATCH_DEPLOY_KEY }}
+
       - name: Checkout Repository
         uses: actions/checkout@v2
 
