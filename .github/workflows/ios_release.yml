@@ -12,6 +12,7 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.MATCH_DEPLOY_KEY }}
+          known_hosts: 'apple-distribution'
 
       - uses: actions/checkout@v2
 
@@ -42,6 +43,7 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.MATCH_DEPLOY_KEY }}
+          known_hosts: 'apple-distribution'
 
       - name: Checkout Repository
         uses: actions/checkout@v2
