@@ -8,14 +8,10 @@ jobs:
     name: Build for iOS
     runs-on: ubuntu-latest
     steps:
-      - name: Install SSH Key
-        uses: shimataro/ssh-key-action@v2
-        with:
-          key: ${{ secrets.MATCH_DEPLOY_KEY }}
-          known_hosts: 'apple-distribution'
-
+      - name: Checkout Repository
       - uses: actions/checkout@v2
 
+      - name: Caching Library
       - uses: actions/cache@v2
         with:
           path: Library
