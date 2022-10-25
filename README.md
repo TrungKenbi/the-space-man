@@ -2,8 +2,8 @@
 
 ## Let's play
 Web: https://trungkenbi.itch.io/thespaceman \
-Android: Coming Soon\
-iOS: Coming Soon
+Android: https://play.google.com/store/apps/details?id=com.trungkenbi.thespaceman \
+iOS: In Review
 
 ## Members
 - Duong Le Phuoc Trung
