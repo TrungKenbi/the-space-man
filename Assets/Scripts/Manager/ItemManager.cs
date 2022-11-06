@@ -1,4 +1,5 @@
-﻿using Item;
+﻿using DG.Tweening;
+using Item;
 using UnityEngine;
 using Weapon.Data;
 
@@ -10,11 +11,13 @@ namespace Manager
 
         private void DropItem(BaseItemData item, Vector3 location)
         {
-            Vector3 spawnPosition = new Vector3(location.x + Random.Range(-1f, 1f), location.y + Random.Range(-1f, 1f), 0);
-            var itemDropped = Instantiate(defaultItemPrefab, spawnPosition, Quaternion.identity);
+            var itemDropped = Instantiate(defaultItemPrefab, location, Quaternion.identity);
             var control = itemDropped.GetComponent<ItemPickup>();
             control.data = item;
             control.Render();
+            
+            Vector3 spawnPosition = new Vector3(location.x + Random.Range(-1f, 1f), location.y + Random.Range(-1f, 1f), 0);
+            itemDropped.transform.DOMove(spawnPosition, 0.3f).SetEase(Ease.OutFlash);
         }
         
         public void DropItem(BaseWeaponData weapon)
